@@ -19,6 +19,8 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation group:'org.processing', name:'core', version:'3.3.7'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '5.11.0'
+
 }
 
 test {
